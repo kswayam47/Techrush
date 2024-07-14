@@ -4,9 +4,12 @@
     margin: 0;
 }
 body{
-    background-image: url(background-art__2__720.png);
+    background-image: url(664f212b3ca3cdd172c0e940_Texture\ 4.webp),url(background-art__2__720.png);
     background-size: cover;
-}
+} 
+
+/* NAVIGATION BAR */
+
 nav {
     height: 10vh;
     margin: 1vh 9vw;
