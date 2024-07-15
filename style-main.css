@@ -5,6 +5,20 @@ main{
     margin: 5vh 8vw;
     background-color: beige;
 }
+.crown{
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Adjust the floating height */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
 .crown img{
     position: absolute;
     left: 6vw;
@@ -17,6 +31,7 @@ main{
     top: 42vh;
     height: 267px;
     transform: rotate(276deg);
+    
 }
 .little-star1 img{
     position: absolute;
@@ -29,4 +44,9 @@ main{
     left: 17vw;
     top: 82vh;
     height: 134px;
+    transform: rotate(320deg);
+}
+
+@media screen and (max-width:1024px){
+    
 }

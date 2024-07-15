@@ -6,13 +6,14 @@
 body{
     background-image: url(664f212b3ca3cdd172c0e940_Texture\ 4.webp),url(background-art__2__720.png);
     background-size: cover;
-} 
+    max-width: 1920px;
+}   
 
 /* NAVIGATION BAR */
 
 nav {
     height: 10vh;
-    margin: 1vh 9vw;
+    /* margin: 1vh 9vw; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +35,7 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3vw;
+    gap: 5%;
 }
 nav ul li{
     text-align: center;
@@ -42,16 +43,21 @@ nav ul li{
     color: white;
     font-family: Ggsans,sans-serif;
     font-size: 1.1em;
-    font-weight: 700;
+    font-weight: 500;
 }
-nav ul li:hover{
-    background-color:black ;
+nav ul li:hover{ 
+    text-decoration: underline;
+    font-size: 1.2em;
 }
 .login button{
     border: none;
-    padding: 12px 18px;
+    padding: 10px 18px;
     border-radius: 25px;
-    background-color: azure;
+    background-color: rgba(240, 255, 255, 0.792);
     color: black;
     font-family:  "Carter One", system-ui;
+}
+
+@media screen and (max-width:1024px){
+    
 }
