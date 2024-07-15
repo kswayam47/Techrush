@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
 /* MAIN BODY  */
 
@@ -46,7 +47,8 @@ main{
     height: 134px;
     transform: rotate(320deg);
 }
-
-@media screen and (max-width:1024px){
-    
+.containt pre{
+    font-size: 72px;
+    margin-top: 50vh;
+    font-family: "Zen Dots", sans-serif;
 }

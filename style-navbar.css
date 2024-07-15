@@ -13,7 +13,7 @@ body{
 
 nav {
     height: 10vh;
-    /* margin: 1vh 9vw; */
+    margin: 1% 9%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,7 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5%;
+    gap: 10%;
 }
 nav ul li{
     text-align: center;
@@ -58,6 +58,8 @@ nav ul li:hover{
     font-family:  "Carter One", system-ui;
 }
 
-@media screen and (max-width:1024px){
-    
+@media screen and (max-width:940px){
+    nav ul{
+        display: none;
+    }
 }
