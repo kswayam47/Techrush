@@ -3,8 +3,13 @@
 /* MAIN BODY  */
 
 main{
-    margin: 5vh 8vw;
-    background-color: beige;
+    margin: 10px auto;
+}
+.home{
+    position: static;
+    width: 80%;
+    margin: auto;
+    
 }
 .crown{
     animation: float 3s ease-in-out infinite;
@@ -22,33 +27,50 @@ main{
 }
 .crown img{
     position: absolute;
-    left: 6vw;
-    top: 8vh;
+    left: 0%;
+    top: -55px;
     width: 320px;
 }
 .cup img{
     position: absolute;
-    left: 42vw;
-    top: 42vh;
+    left: 42%;
+    top: 269px;
     height: 267px;
     transform: rotate(276deg);
     
 }
 .little-star1 img{
     position: absolute;
-    left: 70vw;
-    top: 20vh;
+    left: 70%;
+    top: 180px;
     height: 134px;
 }
 .little-star2 img{
     position: absolute;
-    left: 17vw;
-    top: 82vh;
+    left: 17%;
+    top: 543px;
     height: 134px;
     transform: rotate(320deg);
 }
-.containt pre{
-    font-size: 72px;
-    margin-top: 50vh;
+.containt p{
+    font-size: 50px;
+    margin-top: 200px;
     font-family: "Zen Dots", sans-serif;
+    color: white;
+    line-height: 85px;
+}
+.containt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section{
+    margin: 200px auto;
+    height: 700px;
+    width: 100%;
+    border: 5px solid rgba(255, 255, 255, 0.436);
+    border-radius: 100px;
+    background-color: rgb(217 217 217 / 0.21);
+}
+#text-top{
+    transform: translate(698px, 206px);
 }

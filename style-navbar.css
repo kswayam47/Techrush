@@ -7,13 +7,15 @@ body{
     background-image: url(664f212b3ca3cdd172c0e940_Texture\ 4.webp),url(background-art__2__720.png);
     background-size: cover;
     max-width: 1920px;
+    margin: auto;
+    /* border: 5px solid white; */
 }   
 
 /* NAVIGATION BAR */
 
 nav {
-    height: 10vh;
-    margin: 1% 9%;
+    height: 100px;
+    margin: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +25,7 @@ nav {
     align-items: center;
 }
 .logo img{
-    height: 8vh;
+    height: 50px;
 }
 .logo p{
     font-family:  "Carter One", system-ui;
@@ -35,19 +37,23 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10%;
+    gap: 5%;
 }
 nav ul li{
     text-align: center;
     list-style-type:none;
     color: white;
     font-family: Ggsans,sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 500;
+    width: 140px;
+    transition: font-size 0.5s cubic-bezier(0, 0, 0, 0.98);
+    /* border: 2px solid white; */
 }
 nav ul li:hover{ 
     text-decoration: underline;
     font-size: 1.2em;
+    cursor: pointer;
 }
 .login button{
     border: none;
@@ -55,7 +61,7 @@ nav ul li:hover{
     border-radius: 25px;
     background-color: rgba(240, 255, 255, 0.792);
     color: black;
-    font-family:  "Carter One", system-ui;
+    font-family: "Carter One", system-ui;
 }
 
 @media screen and (max-width:940px){
